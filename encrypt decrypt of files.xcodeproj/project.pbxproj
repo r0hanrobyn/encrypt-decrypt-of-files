@@ -57,9 +57,49 @@
 		0C38B0A62C5B21D00022949F /* encrypt decrypt of files */ = {
 			isa = PBXGroup;
 			children = (
+				0C38B0AE2C5B22900022949F /* src */,
 				0C38B0A72C5B21D00022949F /* main.cpp */,
 			);
 			path = "encrypt decrypt of files";
+			sourceTree = "<group>";
+		};
+		0C38B0AE2C5B22900022949F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0C38B0B02C5B22B10022949F /* app */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		0C38B0B02C5B22B10022949F /* app */ = {
+			isa = PBXGroup;
+			children = (
+				0C38B0B32C5B22E30022949F /* processes */,
+				0C38B0B22C5B22D20022949F /* encrypt */,
+				0C38B0B12C5B22C10022949F /* fileHandling */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		0C38B0B12C5B22C10022949F /* fileHandling */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = fileHandling;
+			sourceTree = "<group>";
+		};
+		0C38B0B22C5B22D20022949F /* encrypt */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = encrypt;
+			sourceTree = "<group>";
+		};
+		0C38B0B32C5B22E30022949F /* processes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = processes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
